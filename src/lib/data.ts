@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "fjmoralesp@outlook.com",
   github: "https://github.com/fjmoralesp",
   linkedin: "https://www.linkedin.com/in/francisco-javier-morales-pabon/",
-  profilePicture: "/me.jpg",
+  profilePicture: "/me.jpeg",
   heroDescription:
     "I’m a software engineer with several years of experience building, maintaining, and scaling large software systems across frontend and backend environments. I’ve worked across different domains and tech stacks, from backend core systems to modern frontend applications, always with a strong focus on code quality, testing, and long-term maintainability. Currently, I’m focused on continuing to grow as an engineer and individual contributor, building products that have real impact while helping teams deliver with confidence and technical excellence."
 };
@@ -92,11 +92,12 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Drawing tool",
+    github: "https://github.com/fjmoralesp/drawingtool",
     description: [
-      "Professional work on large-scale frontend and backend systems.",
-      "Focus on scalability, maintainability, and code quality.",
+      "Python project that renders shapes in the console using a canvas",
+      "Shapes are positioned and drawn based on coordinate inputs",
+      "Focuses on accurate placement and visual representation in a text-based environment",
     ],
   },
 ];

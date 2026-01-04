@@ -1,4 +1,3 @@
-import ThemeToggle from "./ui/theme-toggle";
 import { personalInfo } from "@/lib/data";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -46,8 +45,6 @@ export default function GlassHeader() {
         </nav>
 
         <div className="flex items-center space-x-2">
-          <ThemeToggle />
-
           {/* Mobile Menu Button */}
           <motion.button
             className="md:hidden p-2 text-foreground"
