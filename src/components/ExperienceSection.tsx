@@ -8,7 +8,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="py-12 bg-gradient-to-b from-muted/20 to-background"
+      className="py-12 relative"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
@@ -36,15 +36,15 @@ export default function ExperienceSection() {
               index={index}
             >
               <motion.div
-                className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
+                className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-blue-500/20 dark:bg-card/10 dark:border-blue-500/10 shadow-sm"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true }}
               >
                 <div className="flex items-center mb-3">
-                  <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
-                    <Briefcase className="h-4 w-4 text-purple-500" />
+                  <div className="h-6 w-6 flex items-center justify-center rounded-full bg-blue-500/10 mr-2">
+                    <Briefcase className="h-4 w-4 text-blue-500" />
                   </div>
                   <h4 className="text-sm font-medium">Key Achievements</h4>
                 </div>

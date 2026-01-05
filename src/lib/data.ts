@@ -6,13 +6,15 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/francisco-javier-morales-pabon/",
   profilePicture: "/me.jpeg",
   heroDescription:
-    "I’m a software engineer with several years of experience building, maintaining, and scaling large software systems across frontend and backend environments. I’ve worked across different domains and tech stacks, from backend core systems to modern frontend applications, always with a strong focus on code quality, testing, and long-term maintainability. Currently, I’m focused on continuing to grow as an engineer and individual contributor, building products that have real impact while helping teams deliver with confidence and technical excellence."
+    "🚀 I’m a software engineer with several years of experience building, maintaining, and scaling large software systems across frontend and backend environments." +
+    "I’ve worked across different domains and tech stacks, from backend core systems to modern frontend applications, always with a strong focus on code quality, testing, and long-term maintainability." +
+    "Currently, I’m focused on continuing to grow as an engineer and individual contributor, building products that have real impact while helping teams deliver with confidence and technical excellence."
 };
 
 export const workExperience = [
   {
     company: "Rush Street Interactive",
-    location: "",
+    location: "Bogotá D.C., Colombia",
     position: "Frontend Engineer",
     period: "October 2022 - Present",
     achievements: [
@@ -33,7 +35,7 @@ export const workExperience = [
   },
   {
     company: "Blackboard",
-    location: "Bogotá D.C. Area, Colombia",
+    location: "Bogotá D.C., Colombia",
     position: "Senior Software Engineer",
     period: "June 2019 - July 2021",
     achievements: [
@@ -68,7 +70,7 @@ export const workExperience = [
 export const education = [
   {
     institution: "American School Way",
-    location: "",
+    location: "Bogotá D.C., Colombia",
     degree: "English B2",
     period: "2014 - 2016",
     achievements: [
@@ -78,15 +80,15 @@ export const education = [
 ];
 
 export const skills = {
-  programmingLanguages: ["Java", "JavaScript", "TypeScript"],
-  frontendDevelopment: ["React", "Ember.js", "HTML", "CSS"],
-  backendDevelopment: ["Node.js", "Laravel"],
-  databaseAndStorage: ["Relational Databases"],
+  programmingLanguages: ["Java", "JavaScript", "TypeScript", "PHP", "Python"],
+  frontendDevelopment: ["Next.js", "React", "Tailwind", "Redux", "Styled Components", "Angular"],
+  backendDevelopment: ["Node.js", "Laravel", "Spring Boot", "NestJs"],
+  databaseAndStorage: ["PostgresSQL", "MySQL"],
   toolsAndServices: [
     "Unit Testing",
-    "Code Reviews",
-    "Technical Planning",
-    "Pull Request Reviews",
+    "OpenCode",
+    "Swagger",
+    "Terminal"
   ],
 };
 
