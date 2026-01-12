@@ -5,6 +5,7 @@ export const personalInfo = {
   github: "https://github.com/fjmoralesp",
   linkedin: "https://www.linkedin.com/in/francisco-javier-morales-pavon/",
   profilePicture: "/me.jpeg",
+  cv: "/Francisco_Morales.pdf",
   heroDescription:
     "🚀 Software Engineer with 8+ years of experience building, maintaining, and scaling production systems across frontend and backend environments. " +
     "I’ve worked across multiple domains and company stages, from backend core platforms to modern frontend applications, with a strong focus on code quality, testing, and long-term maintainability. I’ve held senior and staff-level roles, contributed to technical decision-making, and led teams to deliver reliable, high-impact software." +
