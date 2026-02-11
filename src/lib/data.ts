@@ -106,11 +106,4 @@ export const projects = [
       "Focuses on accurate placement and visual representation in a text-based environment",
     ],
   },
-  {
-    title: "TimezoneCO",
-    github: "https://timezone.com.co",
-    description: [
-      "TimezoneCO is a web-based tool designed to help users view, compare, and understand time zones around the world",
-    ],
-  },
 ];
