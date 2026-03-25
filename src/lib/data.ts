@@ -12,7 +12,7 @@ export const personalInfo = {
     "Technologies I’ve worked with over the years include " +
     "Frontend: TypeScript, JavaScript, React, Ember.js, modern frontend tooling and testing " +
     "Backend: Java, Node.js, Laravel (PHP), REST APIs, backend core services" +
-    "Engineering practices: Unit testing, code reviews, technical planning, object-oriented design, scalable architectures"
+    "Engineering practices: Unit testing, code reviews, technical planning, object-oriented design, scalable architectures",
 };
 
 export const workExperience = [
@@ -84,19 +84,58 @@ export const education = [
 ];
 
 export const skills = {
-  programmingLanguages: ["Java", "JavaScript", "TypeScript", "PHP", "Python"],
-  frontendDevelopment: ["Next.js", "React", "Tailwind", "Redux", "Styled Components", "Angular"],
+  programmingLanguages: [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "PHP",
+    "Python",
+    "Go",
+  ],
+  frontendDevelopment: [
+    "Next.js",
+    "React",
+    "Tailwind",
+    "Redux",
+    "Styled Components",
+    "Angular",
+  ],
   backendDevelopment: ["Node.js", "Laravel", "Spring Boot", "NestJs"],
   databaseAndStorage: ["PostgresSQL", "MySQL"],
   toolsAndServices: [
     "Unit Testing",
     "OpenCode",
     "Swagger",
-    "Terminal"
+    "Terminal",
+    "Open-source",
   ],
 };
 
 export const projects = [
+  {
+    title: "Passtui",
+    github: "https://github.com/fjmoralesp/passtui",
+    description: [
+      "Open-source Terminal User Interface (TUI) for the Unix password manager pass",
+      "Improves usability and workflow directly from the terminal",
+      "Provides an intuitive interface for browsing encrypted passwords",
+      "Includes search and navigation for password entries",
+      "Allows management of passwords within the pass ecosystem",
+      "Maintains full compatibility with the existing pass tool",
+    ],
+  },
+  {
+    title: "Lazysql | Contributors",
+    github:
+      "https://github.com/jorgerojas26/lazysql/graphs/contributors?selectedMetric=additions&from=1%2F17%2F2026&to=2%2F8%2F2026",
+    description: [
+      "Open-source contribution adding custom keybindings to Lazysql",
+      "Allows users to define their own keyboard shortcuts",
+      "Improves workflow efficiency within the terminal UI",
+      "Enables flexible key mapping for common database actions",
+      "Enhances productivity by supporting personalized usage styles",
+    ],
+  },
   {
     title: "Drawing tool",
     github: "https://github.com/fjmoralesp/drawingtool",
